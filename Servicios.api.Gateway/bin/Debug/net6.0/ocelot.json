@@ -1,0 +1,18 @@
+{
+
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Usuario/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9035
+        }
+      ],
+      "UpstreamPathTemplate": "/Usuario/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    }
+  ]
+
+}
